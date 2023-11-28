@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Black Friday" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //Declaração das variáveis/constantes: var | let | const
+    var preço,nome,porcentagem,m
+
+    //Entradas
+    //Toda leitura é do tipo string(texto)
+    nome =prompt ('Informe o nome do produto: ')
+    preço =prompt ('Informe o preço do produto:')
+    porcentagem =prompt ('Informe a porcentagem de desconto: ')
+
+    //Processamento
+    m = preço - (preço * (porcentagem/100))
+
+    //Saída
+
+    document.write('<p>A preço equivale a: ', preço, "<p>")
+    document.write('o valor com desconto é: ', m, "<p>")
+    console.log('<p> A preço equivale a: ', preço, "<p>")
+    console.log('o valor com desconto é: ', m, "<p>")
+
+
+
+
+
+
+    </script>
+</body>
+</html>
